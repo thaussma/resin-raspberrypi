@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Update submodules to include multistaging support [Andrei]
 * Bump kernel to version 4.9.59 [Florin]
 
 # v2.7.8+rev1
