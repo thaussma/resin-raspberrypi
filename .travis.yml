@@ -18,7 +18,6 @@ before_install:
   - sudo groupadd balena || true
   - sudo usermod -aG docker $USER || true
   - sudo usermod -aG balena $USER || true
-  - sudo bash -c 'exec su -l $USER || true'
   - sudo bash -c 'balenad&'
 
 script:
