@@ -15,8 +15,7 @@ before_install:
   - sudo apt-get install -y gawk wget diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping curl dosfstools mtools parted syslinux tree docker-ce nodejs npm
   - sudo apt-cache policy git
   - sudo apt-cache policy git-man
-  - sudo apt-get remove git-man
-  - sudo apt-get install git=1:1.9.1-1ubuntu0.7
+  - sudo apt-get install git=1:1.9.1-1
   - sudo curl -sfL https://balena.io/install.sh | sh
   - sudo groupadd docker || true
   - sudo groupadd balena || true
